@@ -908,7 +908,7 @@ by computational induction.
            $ 
             \begin{array}{lcl}
             \mytt{power}(m,n) & = & \mytt{power}(m,k) \cdot \mytt{power}(m,k) \\[0.2cm]
-                                & \stackrel{\mathrm{IV}}{=} & m^k \cdot m^k  \\[0.2cm]
+                                & \stackrel{\mathrm{IH}}{=} & m^k \cdot m^k  \\[0.2cm]
                                 & = & m^{2\cdot k} \\[0.2cm]
                                 & = & m^{n}.
             \end{array}
@@ -922,7 +922,7 @@ by computational induction.
             $ 
             \begin{array}{lcl}
             \mytt{power}(m,n) & = & \mytt{power}(m,k) \cdot \mytt{power}(m,k) \cdot m  \\[0.2cm]
-                                & \stackrel{\mathrm{IV}}{=} & m^k \cdot m^k \cdot m  \\[0.2cm]
+                                & \stackrel{\mathrm{IH}}{=} & m^k \cdot m^k \cdot m  \\[0.2cm]
                                 & = & m^{2\cdot k+1} \\[0.2cm]
                                 & = & m^{n}.
             \end{array}
